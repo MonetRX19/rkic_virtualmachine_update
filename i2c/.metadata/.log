@@ -1,0 +1,340 @@
+!SESSION 2023-03-31 21:07:40.649 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -cssTheme org.eclipse.e4.ui.css.theme.e4_classic -showLocation -pluginCustomization /opt/dvt_eclipse/dvt_eclipse/misc/dvt.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -cssTheme org.eclipse.e4.ui.css.theme.e4_classic -showLocation -pluginCustomization /opt/dvt_eclipse/dvt_eclipse/misc/dvt.ini
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:40.956
+!MESSAGE DVT Patcher: enabled
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:40.957
+!MESSAGE DVT Patcher: begin initializing weaving hook
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:40.957
+!MESSAGE DVT Patcher: reading patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.357
+!MESSAGE DVT Patcher: patchset [ dump-allocated-swt-resources ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] is disabled by default
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.357
+!MESSAGE DVT Patcher: patchset [ shell-set-visible-hang ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] is disabled by default
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.357
+!MESSAGE DVT Patcher: skipping filter in patchset [ deadlock-on-startup-bug-502095 ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ org.eclipse.ui.workbench ] with version [ [3.108.0.v20160602-1232,3.108.1.v20160819-2118] ] for class [ org.eclipse.ui.internal.Workbench$StartupProgressBundleListener ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.357
+!MESSAGE DVT Patcher: skipping patchset [ deadlock-on-startup-bug-502095 ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.357
+!MESSAGE DVT Patcher: skipping filter in patchset [ clipboard-wait-for-contents-hang-bug-241957 ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ org.eclipse.swt ] with version [ [3.8.1.v3834e,3.8.1.v3834e] ] for class [ org.eclipse.swt.dnd.Clipboard ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.357
+!MESSAGE DVT Patcher: skipping patchset [ clipboard-wait-for-contents-hang-bug-241957 ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.357
+!MESSAGE DVT Patcher: skipping filter in patchset [ compare-viewer-npe ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ org.eclipse.compare ] with version [ [3.5.501.v20140817-1445,3.5.501.v20140817-1445] ] for class [ org.eclipse.compare.contentmergeviewer.ContentMergeViewer$ContentMergeViewerLayout ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.357
+!MESSAGE DVT Patcher: skipping patchset [ compare-viewer-npe ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.357
+!MESSAGE DVT Patcher: skipping filter in patchset [ copy-paste-bug-368354-backport ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ org.eclipse.ui.workbench.texteditor ] with version [ [3.8.0.v20120523-1310,3.8.0.v20120523-1310] ] for class [ org.eclipse.ui.texteditor.AbstractTextEditor ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.357
+!MESSAGE DVT Patcher: skipping patchset [ copy-paste-bug-368354-backport ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.358
+!MESSAGE DVT Patcher: skipping filter in patchset [ marker-view-wrong-selection-update-bug-401632 ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ org.eclipse.ui.ide ] with version [ [3.10.1.v20140828-0944,3.10.1.v20140828-0944] ] for class [ org.eclipse.ui.internal.views.markers.ExtendedMarkersView$8 ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.358
+!MESSAGE DVT Patcher: skipping patchset [ marker-view-wrong-selection-update-bug-401632 ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.358
+!MESSAGE DVT Patcher: skipping filter in patchset [ npe-fix-showinmenu-bug-435284 ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ org.eclipse.ui.workbench ] with version [ [3.106.1.v20140827-1737,3.106.1.v20140827-1737] ] for class [ org.eclipse.ui.internal.ShowInMenu ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.358
+!MESSAGE DVT Patcher: skipping patchset [ npe-fix-showinmenu-bug-435284 ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.358
+!MESSAGE DVT Patcher: skipping filter in patchset [ cdt-slowed-down-content-assist ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ org.eclipse.cdt.ui ] for class [ org.eclipse.cdt.internal.ui.text.contentassist.ParameterGuessingProposal ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.358
+!MESSAGE DVT Patcher: skipping filter in patchset [ cdt-slowed-down-content-assist ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ org.eclipse.cdt.ui ] for class [ org.eclipse.cdt.internal.ui.text.contentassist.ParameterGuessingProposal ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.358
+!MESSAGE DVT Patcher: skipping patchset [ cdt-slowed-down-content-assist ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.358
+!MESSAGE DVT Patcher: skipping filter in patchset [ block-selection-missing-keystrokes ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ org.eclipse.swt ] with version [ [3.8.1.v3834e,3.8.1.v3834e] ] for class [ org.eclipse.swt.custom.StyledText ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.358
+!MESSAGE DVT Patcher: skipping filter in patchset [ block-selection-missing-keystrokes ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ org.eclipse.swt ] with version [ [3.103.0.v20140605-2008,3.103.0.v20140605-2008] ] for class [ org.eclipse.swt.custom.StyledText ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.358
+!MESSAGE DVT Patcher: skipping patchset [ block-selection-missing-keystrokes ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.358
+!MESSAGE DVT Patcher: skipping filter in patchset [ window-workingset-broken-e4 ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ org.eclipse.ui.workbench ] with version [ [3.106.1.v20140827-1737,3.106.1.v20140827-1737] ] for class [ org.eclipse.ui.internal.WorkbenchPage ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.358
+!MESSAGE DVT Patcher: skipping filter in patchset [ window-workingset-broken-e4 ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ org.eclipse.ui.workbench ] with version [ [3.107.0.v20150825-2206,3.107.0.v20150825-2206] ] for class [ org.eclipse.ui.internal.WorkbenchPage ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.358
+!MESSAGE DVT Patcher: skipping patchset [ window-workingset-broken-e4 ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.358
+!MESSAGE DVT Patcher: skipping filter in patchset [ clearcase-activator-message-suppress ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ net.sourceforge.clearcase ] for class [ net.sourceforge.clearcase.ClearCaseCLIImpl ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.358
+!MESSAGE DVT Patcher: skipping filter in patchset [ clearcase-activator-message-suppress ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ net.sourceforge.clearcase ] for class [ net.sourceforge.clearcase.ClearCaseCLIImpl ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.358
+!MESSAGE DVT Patcher: skipping filter in patchset [ clearcase-activator-message-suppress ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ net.sourceforge.clearcase ] for class [ net.sourceforge.clearcase.ClearCaseCLIImpl ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.359
+!MESSAGE DVT Patcher: skipping patchset [ clearcase-activator-message-suppress ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.359
+!MESSAGE DVT Patcher: skipping patchset [ windows-private-fonts-gdip-fix ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.359
+!MESSAGE DVT Patcher: skipping filter in patchset [ commands-on-non-ui-thread-preExecute-exception ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ com.perforce.team.ui ] for class [ com.perforce.team.ui.PerforceUIPlugin$1 ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.359
+!MESSAGE DVT Patcher: skipping filter in patchset [ commands-on-non-ui-thread-preExecute-exception ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ com.perforce.team.ui ] for class [ com.perforce.team.ui.PerforceUIPlugin$1 ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.359
+!MESSAGE DVT Patcher: skipping filter in patchset [ commands-on-non-ui-thread-preExecute-exception ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ com.perforce.team.ui ] for class [ com.perforce.team.ui.PerforceUIPlugin$1 ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.359
+!MESSAGE DVT Patcher: skipping filter in patchset [ commands-on-non-ui-thread-preExecute-exception ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ com.perforce.team.ui ] for class [ com.perforce.team.ui.PerforceUIPlugin$1 ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.359
+!MESSAGE DVT Patcher: skipping filter in patchset [ commands-on-non-ui-thread-preExecute-exception ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ com.perforce.team.ui ] for class [ com.perforce.team.ui.PerforceUIPlugin$1 ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.359
+!MESSAGE DVT Patcher: skipping patchset [ commands-on-non-ui-thread-preExecute-exception ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.359
+!MESSAGE DVT Patcher: skipping filter in patchset [ xml-validate-hidden-folders-bug ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ org.eclipse.wst.xml.core ] with version [ [1.1.902.v201501211904,1.1.902.v201501211904] ] for class [ org.eclipse.wst.xml.core.internal.validation.core.AbstractNestedValidator ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.359
+!MESSAGE DVT Patcher: skipping filter in patchset [ xml-validate-hidden-folders-bug ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ org.eclipse.wst.xml.core ] with version [ [1.1.1001.v201702270442,1.1.1001.v201702270442] ] for class [ org.eclipse.wst.xml.core.internal.validation.core.AbstractNestedValidator ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.359
+!MESSAGE DVT Patcher: patchset [ xml-validate-hidden-folders-bug ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] will be applied
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.359
+!MESSAGE DVT Patcher: skipping filter in patchset [ find-replace-large-history-crash ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ org.eclipse.ui.workbench.texteditor ] with version [ [3.9.0.v20140411-1521,3.9.0.v20140411-1521] ] for class [ org.eclipse.ui.texteditor.FindReplaceDialog ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.359
+!MESSAGE DVT Patcher: skipping filter in patchset [ find-replace-large-history-crash ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ org.eclipse.ui.workbench.texteditor ] with version [ [3.10.1.v20160818-1626,3.10.1.v20160818-1626] ] for class [ org.eclipse.ui.texteditor.FindReplaceDialog ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.359
+!MESSAGE DVT Patcher: patchset [ find-replace-large-history-crash ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] will be applied
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.359
+!MESSAGE DVT Patcher: skipping filter in patchset [ tm-terminal-dvt-mouse-listener-support ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ org.eclipse.tm.terminal.control ] with version [ [4.1.0.201512010231,4.2.0.201609191434] ] for class [ org.eclipse.tm.internal.terminal.textcanvas.TextCanvas ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.360
+!MESSAGE DVT Patcher: patchset [ tm-terminal-dvt-mouse-listener-support ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] will be applied
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.360
+!MESSAGE DVT Patcher: skipping filter in patchset [ npe-annotations-preference-page ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ org.eclipse.ui.editors ] with version [ [3.8.200.v20140401-1310,3.8.200.v20140401-1310] ] for class [ org.eclipse.ui.internal.editors.text.AnnotationsConfigurationBlock ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.360
+!MESSAGE DVT Patcher: patchset [ npe-annotations-preference-page ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] will be applied
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.360
+!MESSAGE DVT Patcher: patchset [ compare-viewer-performance-fix ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] will be applied
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.360
+!MESSAGE DVT Patcher: skipping filter in patchset [ dltk-core-build-modules-index-out-of-bounds ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ org.eclipse.dltk.core ] for class [ org.eclipse.dltk.compiler.task.TodoTaskSimpleParser ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.360
+!MESSAGE DVT Patcher: skipping patchset [ dltk-core-build-modules-index-out-of-bounds ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.360
+!MESSAGE DVT Patcher: skipping filter in patchset [ command-handler-exception-doubleclick ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ org.eclipse.ui.workbench ] with version [ [3.106.1.v20140827-1737,3.106.1.v20140827-1737] ] for class [ org.eclipse.ui.internal.quickaccess.QuickAccessContents$6 ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.360
+!MESSAGE DVT Patcher: skipping filter in patchset [ command-handler-exception-doubleclick ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] because there is no bundle [ org.eclipse.ui.workbench ] with version [ [3.108.3.v20170216-1539,3.108.3.v20170216-1539] ] for class [ org.eclipse.ui.internal.quickaccess.QuickAccessContents$6 ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.360
+!MESSAGE DVT Patcher: patchset [ command-handler-exception-doubleclick ] in patchset container [ /opt/dvt_eclipse/dvt_eclipse/eclipse/plugins/ro.amiq.dvt.patcher_19.1.22.jar ] will be applied
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:41.360
+!MESSAGE DVT Patcher: end initializing weaving hook
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.036
+!MESSAGE DVT Logger: >> Started DVT Plugin (version: 19.1.22).
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.047
+!MESSAGE DVT Logger: >> Started DVT initialization.
+
+!ENTRY org.eclipse.core.variables 4 120 2023-03-31 21:07:57.069
+!MESSAGE Dynamic variable extension from bundle 'ro.amiq.slndt' overrides existing extension variable 'dvt_PERSPEC_PATH' from bundle 'ro.amiq.sdldt'
+
+!ENTRY org.eclipse.core.variables 4 120 2023-03-31 21:07:57.070
+!MESSAGE Dynamic variable extension from bundle 'ro.amiq.slndt' overrides existing extension variable 'dvt_load_perspec_tops' from bundle 'ro.amiq.sdldt'
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.095
+!MESSAGE DVT Logger: >> Started EDT Base Plugin (version: 19.1.22).
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.095
+!MESSAGE DVT Logger: << Ended EDT Base initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.099
+!MESSAGE DVT Logger: >> Started EDT Plugin (version: 19.1.22).
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.227
+!MESSAGE DVT Logger: >> Started PSSDT Plugin (version: 19.1.22).
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.231
+!MESSAGE DVT Logger: >> Started SDLDT Plugin (version: 19.1.22).
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.235
+!MESSAGE DVT Logger: >> Started SLNDT Plugin (version: 19.1.22).
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.243
+!MESSAGE DVT Logger: >> Started VHDLDT Plugin (version: 19.1.22).
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.250
+!MESSAGE DVT Logger: >> Started VLOGVT Plugin (version: 19.1.22).
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.252
+!MESSAGE DVT Logger: << Ended DVT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.253
+!MESSAGE DVT Logger: >> Started EDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.288
+!MESSAGE DVT Logger: Using eParser version 20 (built 14-May-2016)
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.289
+!MESSAGE DVT Logger: << Ended EDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.289
+!MESSAGE DVT Logger: >> Started PSSDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.305
+!MESSAGE DVT Logger: << Ended PSSDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.305
+!MESSAGE DVT Logger: >> Started SDLDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.308
+!MESSAGE DVT Logger: Using eParser version 20 (built 14-May-2016)
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.308
+!MESSAGE DVT Logger: << Ended SDLDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.309
+!MESSAGE DVT Logger: >> Started SLNDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.321
+!MESSAGE DVT Logger: Using eParser version 20 (built 14-May-2016)
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.321
+!MESSAGE DVT Logger: << Ended SLNDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.322
+!MESSAGE DVT Logger: >> Started VHDLDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.327
+!MESSAGE DVT Logger: << Ended VHDLDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.328
+!MESSAGE DVT Logger: >> Started VLOGDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.340
+!MESSAGE DVT Logger: << Ended VLOGDT initialization.
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:57.379
+!MESSAGE DVT Patcher: patch applied for class [ org.eclipse.tm.internal.terminal.textcanvas.TextCanvas ] in bundle [ org.eclipse.tm.terminal.control ] with version [ [4.3.0.201706130821,4.3.0.201706130821] ]
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:57.382
+!MESSAGE DVT Logger: Enabled DVT terminal mouse listener
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-03-31 21:07:57.478
+!MESSAGE DVT Patcher: patch applied for class [ org.eclipse.ui.internal.quickaccess.QuickAccessContents$4 ] in bundle [ org.eclipse.ui.workbench ] with version [ [3.110.1.v20170704-1208,3.110.1.v20170704-1208] ]
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:58.642
+!MESSAGE DVT Logger: >> Started DVT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:58.651
+!MESSAGE DVT Logger: The following error occured when trying to get the output of 'irun -version -nolog':
+Cannot run program "irun": error=2, No such file or directory
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:58.653
+!MESSAGE DVT Logger: The following error occured when trying to get the output of 'irun -location -nolog':
+Cannot run program "irun": error=2, No such file or directory
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:58.660
+!MESSAGE DVT Logger: The following error occured when trying to get the output of 'sn_which.sh specman.h':
+Cannot run program "sn_which.sh": error=2, No such file or directory
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:58.725
+!MESSAGE DVT Logger: << Ended DVT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:58.752
+!MESSAGE DVT Logger: >> Started EDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:58.777
+!MESSAGE DVT Logger: << Ended EDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:58.777
+!MESSAGE DVT Logger: >> Started PSSDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:58.786
+!MESSAGE DVT Logger: << Ended PSSDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:58.786
+!MESSAGE DVT Logger: >> Started SDLDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:58.788
+!MESSAGE DVT Logger: << Ended SDLDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:58.788
+!MESSAGE DVT Logger: >> Started SLNDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:58.791
+!MESSAGE DVT Logger: << Ended SLNDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:58.792
+!MESSAGE DVT Logger: >> Started VHDLDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:58.793
+!MESSAGE DVT Logger: << Ended VHDLDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:58.794
+!MESSAGE DVT Logger: >> Started VLOGDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:07:58.799
+!MESSAGE DVT Logger: << Ended VLOGDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:08:44.513
+!MESSAGE DVT Logger: << Ended EDT Plugin.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:08:44.514
+!MESSAGE DVT Logger: << Ended SDLDT Plugin.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:08:44.517
+!MESSAGE DVT Logger: << Ended SLNDT Plugin.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:08:44.518
+!MESSAGE DVT Logger: << Ended EDT Base Plugin.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:08:44.520
+!MESSAGE DVT Logger: << Ended PSSDT Plugin.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:08:44.521
+!MESSAGE DVT Logger: << Ended VHDLDT Plugin.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:08:44.521
+!MESSAGE DVT Logger: << Ended VLOGDT Plugin.
+
+!ENTRY ro.amiq.dvt 1 0 2023-03-31 21:08:44.523
+!MESSAGE DVT Logger: << Ended DVT Plugin.

@@ -1,0 +1,1153 @@
+global coverage_group 0 lvc_apb_pkg::lvc_apb_master_monitor::lvc_apb_master_cov_trans __coverage_lvc_apb_master_monitor.lvc_apb_master_cov_trans unused_lvc_apb_master_monitor_lvc_apb_master_cov_trans_loop_label lvc_apb_pkg 0 1 0 0 0  ( 0 
+)
+ 1 6
+ 115 /home/verifier/project/i2c/rkv_v2pro_i2c-RKV_I2C_TB_00/rkv_i2c_tb/sim/../agents/lvc_apb3/lvc_apb_master_monitor.svh
+ 114 /home/verifier/project/i2c/rkv_v2pro_i2c-RKV_I2C_TB_00/rkv_i2c_tb/sim/../agents/lvc_apb3/lvc_apb_slave_monitor.svh
+ 113 /home/verifier/project/i2c/rkv_v2pro_i2c-RKV_I2C_TB_00/rkv_i2c_tb/sim/../agents/lvc_i2c/lvc_i2c_master_monitor.sv
+ 112 /home/verifier/project/i2c/rkv_v2pro_i2c-RKV_I2C_TB_00/rkv_i2c_tb/sim/../agents/lvc_i2c/lvc_i2c_slave_monitor.sv
+ 91 /home/verifier/project/i2c/rkv_v2pro_i2c-RKV_I2C_TB_00/rkv_i2c_tb/sim/../reg/ral_rkv_i2c.sv
+ 102 /home/verifier/project/i2c/rkv_v2pro_i2c-RKV_I2C_TB_00/rkv_i2c_tb/sim/../agents/lvc_apb3/lvc_apb_if.sv
+ 66 0 0 0 1 0 0 0 0  1
+0
+26 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+0
+0
+0
+0
+end_coverage_group
+global coverage_group 0 lvc_apb_pkg::lvc_apb_slave_monitor::lvc_apb_slave_cov_trans __coverage_lvc_apb_slave_monitor.lvc_apb_slave_cov_trans unused_lvc_apb_slave_monitor_lvc_apb_slave_cov_trans_loop_label lvc_apb_pkg 0 1 0 0 0  ( 0 
+)
+ 0 68 1 0 0 1 0 0 0 0  1
+0
+26 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+0
+0
+0
+0
+end_coverage_group
+global coverage_group 0 lvc_i2c_pkg::lvc_i2c_master_monitor::lvc_i2c_master_cov_trans __coverage_lvc_i2c_master_monitor.lvc_i2c_master_cov_trans unused_lvc_i2c_master_monitor_lvc_i2c_master_cov_trans_loop_label lvc_i2c_pkg 0 1 0 0 0  ( 0 
+)
+ 0 94 2 0 0 1 0 0 0 0  1
+0
+26 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+0
+0
+0
+0
+end_coverage_group
+global coverage_group 0 lvc_i2c_pkg::lvc_i2c_slave_monitor::lvc_i2c_slave_cov_trans __coverage_lvc_i2c_slave_monitor.lvc_i2c_slave_cov_trans unused_lvc_i2c_slave_monitor_lvc_i2c_slave_cov_trans_loop_label lvc_i2c_pkg 0 1 0 0 0  ( 0 
+)
+ 0 93 3 0 0 1 0 0 0 0  1
+0
+26 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+0
+0
+0
+0
+end_coverage_group
+global coverage_group 0 rkv_i2c_pkg::ral_block_rkv_i2c::cg_addr __coverage_ral_block_rkv_i2c.cg_addr unused_ral_block_rkv_i2c_cg_addr_loop_label rkv_i2c_pkg 0 1 0 0 0  ( 0 
+)
+ 0 1592 4 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_2c
+ 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_2b
+0
+0
+0
+64
+0
+ 1
+ 4 name 0 0 0 0
+
+42
+0
+0
+0
+ 6 IC_CON 1596 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1597 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_0 0 0 0 0 0 0 0
+
+ 6 IC_TAR 1601 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1602 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_2 0 0 0 0 0 0 0
+
+ 6 IC_SAR 1606 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1607 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_3 0 0 0 0 0 0 0
+
+ 11 IC_HS_MADDR 1611 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1612 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_4 0 0 0 0 0 0 0
+
+ 11 IC_DATA_CMD 1616 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1617 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_5 0 0 0 0 0 0 0
+
+ 14 IC_SS_SCL_HCNT 1621 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1622 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_6 0 0 0 0 0 0 0
+
+ 14 IC_SS_SCL_LCNT 1626 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1627 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_7 0 0 0 0 0 0 0
+
+ 14 IC_FS_SCL_HCNT 1631 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1632 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_8 0 0 0 0 0 0 0
+
+ 14 IC_FS_SCL_LCNT 1636 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1637 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_9 0 0 0 0 0 0 0
+
+ 14 IC_HS_SCL_HCNT 1641 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1642 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_a 0 0 0 0 0 0 0
+
+ 14 IC_HS_SCL_LCNT 1646 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1647 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_b 0 0 0 0 0 0 0
+
+ 12 IC_INTR_STAT 1651 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1652 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_c 0 0 0 0 0 0 0
+
+ 12 IC_INTR_MASK 1656 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1657 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_d 0 0 0 0 0 0 0
+
+ 16 IC_RAW_INTR_STAT 1661 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1662 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_e 0 0 0 0 0 0 0
+
+ 8 IC_RX_TL 1666 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1667 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_f 0 0 0 0 0 0 0
+
+ 8 IC_TX_TL 1671 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1672 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_10 0 0 0 0 0 0 0
+
+ 11 IC_CLR_INTR 1676 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1677 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_11 0 0 0 0 0 0 0
+
+ 15 IC_CLR_RX_UNDER 1681 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1682 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_12 0 0 0 0 0 0 0
+
+ 14 IC_CLR_RX_OVER 1686 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1687 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_13 0 0 0 0 0 0 0
+
+ 14 IC_CLR_TX_OVER 1691 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1692 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_14 0 0 0 0 0 0 0
+
+ 13 IC_CLR_RD_REQ 1696 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1697 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_15 0 0 0 0 0 0 0
+
+ 14 IC_CLR_TX_ABRT 1701 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1702 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_16 0 0 0 0 0 0 0
+
+ 14 IC_CLR_RX_DONE 1706 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1707 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_17 0 0 0 0 0 0 0
+
+ 15 IC_CLR_ACTIVITY 1711 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1712 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_18 0 0 0 0 0 0 0
+
+ 15 IC_CLR_STOP_DET 1716 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1717 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_19 0 0 0 0 0 0 0
+
+ 16 IC_CLR_START_DET 1721 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1722 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1a 0 0 0 0 0 0 0
+
+ 15 IC_CLR_GEN_CALL 1726 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1727 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1b 0 0 0 0 0 0 0
+
+ 9 IC_ENABLE 1731 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1732 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1c 0 0 0 0 0 0 0
+
+ 9 IC_STATUS 1736 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1737 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1d 0 0 0 0 0 0 0
+
+ 8 IC_TXFLR 1741 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1742 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1e 0 0 0 0 0 0 0
+
+ 8 IC_RXFLR 1746 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1747 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1f 0 0 0 0 0 0 0
+
+ 11 IC_SDA_HOLD 1751 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1752 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_20 0 0 0 0 0 0 0
+
+ 17 IC_TX_ABRT_SOURCE 1756 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1757 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_21 0 0 0 0 0 0 0
+
+ 12 IC_SDA_SETUP 1761 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1762 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_22 0 0 0 0 0 0 0
+
+ 19 IC_ACK_GENERAL_CALL 1766 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1767 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_23 0 0 0 0 0 0 0
+
+ 16 IC_ENABLE_STATUS 1771 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1772 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_24 0 0 0 0 0 0 0
+
+ 12 IC_FS_SPKLEN 1776 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1777 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_25 0 0 0 0 0 0 0
+
+ 12 IC_HS_SPKLEN 1781 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1782 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_26 0 0 0 0 0 0 0
+
+ 15 REG_TIMEOUT_RST 1786 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1787 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_27 0 0 0 0 0 0 0
+
+ 15 IC_COMP_PARAM_1 1791 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1792 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_28 0 0 0 0 0 0 0
+
+ 15 IC_COMP_VERSION 1796 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1797 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_29 0 0 0 0 0 0 0
+
+ 12 IC_COMP_TYPE 1801 4 0 0 0 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 59 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 61 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_1
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 8 accessed 1802 4 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 62 ral_block_rkv_i2c::rkv_i2c_pkg_ral_block_rkv_i2c_cg_addr_fn_2a 0 0 0 0 0 0 0
+
+end_coverage_group
+global coverage_group 0 lvc_apb_if::cg_lvc_apb_command __coverage_cg_lvc_apb_command unused_cg_lvc_apb_command_loop_label lvc_apb_if 0 1 0 0 0  ( 0 
+)
+ 0 64 5 0 0 0 0 0 0 0  1
+0
+26 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+2
+0
+1
+0
+ 6 pwrite 65 5 0 0 0 52 cg_lvc_apb_command::lvc_apb_if_cg_lvc_apb_command_fn 52 cg_lvc_apb_command::lvc_apb_if_cg_lvc_apb_command_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 1 0 0 0 0 1 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 54 cg_lvc_apb_command::lvc_apb_if_cg_lvc_apb_command_fn_2
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 5 write 67 5 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cg_lvc_apb_command::lvc_apb_if_cg_lvc_apb_command_fn_0 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 4 read 68 5 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cg_lvc_apb_command::lvc_apb_if_cg_lvc_apb_command_fn_1 0 0 0 0 0 0 0
+
+ 4 psel 71 5 0 0 0 54 cg_lvc_apb_command::lvc_apb_if_cg_lvc_apb_command_fn_3 54 cg_lvc_apb_command::lvc_apb_if_cg_lvc_apb_command_fn_3 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 1 0 0 0 0 1 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 54 cg_lvc_apb_command::lvc_apb_if_cg_lvc_apb_command_fn_2
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 3 sel 73 5 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cg_lvc_apb_command::lvc_apb_if_cg_lvc_apb_command_fn_0 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 5 unsel 74 5 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 54 cg_lvc_apb_command::lvc_apb_if_cg_lvc_apb_command_fn_1 0 0 0 0 0 0 0
+
+ 3 cmd 0 76 5 0 0 0 2 0 1 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 3 1 1 0 0 -1 0 0 1 1 9 cmd_write 77 5 1 0 1 3 1 0 1 1 3 sel 0 0 0 0 0 1 0 0 1 5 write 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 1 0 0 -1 0 0 1 1 8 cmd_read 78 5 1 0 1 3 1 0 1 1 3 sel 0 0 0 0 0 1 0 0 1 4 read 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 1 0 0 -1 0 0 1 1 8 cmd_idle 79 5 1 0 1 1 1 0 1 1 5 unsel 0 0 0 0 0 0 0 0 0 0
+
+end_coverage_group
+global coverage_group 0 lvc_apb_if::cg_lvc_apb_trans_timing_group __coverage_cg_lvc_apb_trans_timing_group unused_cg_lvc_apb_trans_timing_group_loop_label lvc_apb_if 0 0 0 0 0  ( 0 
+)
+ 0 84 5 0 0 0 0 0 0 0  1
+0
+26 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+2
+0
+0
+0
+ 4 psel 85 5 0 0 0 74 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn 74 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 1 0 0 0 0 1 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 6 1 4 0 0 1 1 6 single 86 5 0 4 0 -1 0 0 0 0 0 0 1 4 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_0 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_1 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_1 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_0 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 7 burst_2 87 5 0 4 0 -1 0 0 0 0 0 0 1 3 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_0 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_2 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_1 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_0 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 7 burst_4 88 5 0 4 0 -1 0 0 0 0 0 0 1 3 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_0 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_3 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_1 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_0 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 7 burst_8 89 5 0 4 0 -1 0 0 0 0 0 0 1 3 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_0 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_4 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_1 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_0 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 8 burst_16 90 5 0 4 0 -1 0 0 0 0 0 0 1 3 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_0 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_5 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_1 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_0 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 8 burst_32 91 5 0 4 0 -1 0 0 0 0 0 0 1 3 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_0 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_6 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_1 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_0 0 0 0 0 0 0 0
+
+ 7 penable 93 5 0 0 0 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_7 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_7 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 1 0 0 0 0 1 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 4 0 0 1 1 6 single 94 5 0 4 0 -1 0 0 0 0 0 0 1 4 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_0 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_1 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_8 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_9 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_0 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_1 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 5 burst 95 5 0 4 0 -1 0 0 0 0 0 0 1 4 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_0 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_1 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_0 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 76 cg_lvc_apb_trans_timing_group::lvc_apb_if_cg_lvc_apb_trans_timing_group_fn_1 0 0 0 0 0 0 0
+
+end_coverage_group
+global coverage_group 0 lvc_apb_if::cg_lvc_apb_write_read_order_group __coverage_cg_lvc_apb_write_read_order_group unused_cg_lvc_apb_write_read_order_group_loop_label lvc_apb_if 0 0 0 0 0  ( 0 
+)
+ 0 100 5 0 0 0 0 0 0 0  1
+0
+26 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+1
+0
+0
+0
+ 16 write_read_order 101 5 0 0 0 82 cg_lvc_apb_write_read_order_group::lvc_apb_if_cg_lvc_apb_write_read_order_group_fn 82 cg_lvc_apb_write_read_order_group::lvc_apb_if_cg_lvc_apb_write_read_order_group_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 1 0 0 0 0 1 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 4 1 4 0 0 1 1 11 write_write 102 5 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 84 cg_lvc_apb_write_read_order_group::lvc_apb_if_cg_lvc_apb_write_read_order_group_fn_0 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 84 cg_lvc_apb_write_read_order_group::lvc_apb_if_cg_lvc_apb_write_read_order_group_fn_0 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 10 write_read 103 5 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 84 cg_lvc_apb_write_read_order_group::lvc_apb_if_cg_lvc_apb_write_read_order_group_fn_0 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 84 cg_lvc_apb_write_read_order_group::lvc_apb_if_cg_lvc_apb_write_read_order_group_fn_1 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 10 read_write 104 5 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 84 cg_lvc_apb_write_read_order_group::lvc_apb_if_cg_lvc_apb_write_read_order_group_fn_1 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 84 cg_lvc_apb_write_read_order_group::lvc_apb_if_cg_lvc_apb_write_read_order_group_fn_0 0 0 0 0 0 0 0
+ 1 4 0 0 1 1 9 read_read 105 5 0 4 0 -1 0 0 0 0 0 0 1 2 0 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 84 cg_lvc_apb_write_read_order_group::lvc_apb_if_cg_lvc_apb_write_read_order_group_fn_1 0 0 0 0 0 0 0
+ 1 0 0 -1 0 4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 84 cg_lvc_apb_write_read_order_group::lvc_apb_if_cg_lvc_apb_write_read_order_group_fn_1 0 0 0 0 0 0 0
+
+end_coverage_group

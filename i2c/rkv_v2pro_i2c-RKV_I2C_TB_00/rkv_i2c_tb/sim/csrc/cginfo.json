@@ -1,0 +1,550 @@
+{
+    "rlimit": {
+        "data": -1,
+        "stack": -1
+    },
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 4.4395639999999998,
+            "ru_nvcsw": 23,
+            "ru_stime_sec": 0.028104000000000001,
+            "ru_maxrss_kb": 212868,
+            "ru_minflt": 35738,
+            "ru_nivcsw": 22
+        },
+        "outputSizePerQuad": 97.074134370893702,
+        "mopSpeed": 179160.35567768296,
+        "nQuads": 292995,
+        "quadSpeed": 57738.898275725485,
+        "cpu_cycles_end": 265773407500660,
+        "ru_childs_cgstart": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.014088,
+            "ru_nvcsw": 18,
+            "ru_stime_sec": 0.012147,
+            "ru_maxrss_kb": 151076,
+            "ru_minflt": 6877,
+            "ru_nivcsw": 8
+        },
+        "cpu_cycles_cgstart": 265761666085312,
+        "nMops": 909146,
+        "mop/quad": 3.1029403232137067,
+        "totalObjSize": 28442236,
+        "ru_self_end": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 9.4895250000000004,
+            "ru_nvcsw": 29,
+            "ru_stime_sec": 0.043249000000000003,
+            "ru_maxrss_kb": 244020,
+            "ru_minflt": 42243,
+            "ru_nivcsw": 49
+        },
+        "Frontend(%)": 46.742121804752117,
+        "ru_childs_end": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.038608999999999997,
+            "ru_nvcsw": 40,
+            "ru_stime_sec": 0.018270000000000002,
+            "ru_maxrss_kb": 177944,
+            "ru_minflt": 15580,
+            "ru_nivcsw": 20
+        },
+        "peak_mem_kb": 467472,
+        "cpu_cycles_total": 22204871284,
+        "CodeGen(%)": 53.257878195247883,
+        "realTime": 9.6692099571228027
+    },
+    "PEModules": [],
+    "MlibObjs": {},
+    "cycles_program_begin": 265751202629376,
+    "Misc": {
+        "vcs_build_date": "Build Date = Feb 28 2019 22:34:30",
+        "cwd": "/home/verifier/project/i2c/rkv_v2pro_i2c-RKV_I2C_TB_00/rkv_i2c_tb/sim",
+        "vcs_version": "O-2018.09-SP2_Full64",
+        "master_pid": 82405,
+        "VCS_HOME": "/opt/synopsys/vcs/vcs-mx/O-2018.09-SP2",
+        "csrc_abs": "/home/verifier/project/i2c/rkv_v2pro_i2c-RKV_I2C_TB_00/rkv_i2c_tb/sim/csrc",
+        "hostname": "localhost.localdomain",
+        "csrc": "csrc",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/home/verifier/project/i2c/rkv_v2pro_i2c-RKV_I2C_TB_00/rkv_i2c_tb/sim/simv.daidir",
+        "archive_dir": "archive.0",
+        "default_output_dir": "csrc"
+    },
+    "NameTable": {
+        "lvc_apb_pkg": [
+            "lvc_apb_pkg",
+            "AvTGM",
+            "module",
+            4
+        ],
+        "rkv_DW_apb_i2c_toggle": [
+            "rkv_DW_apb_i2c_toggle",
+            "JesvI",
+            "module",
+            16
+        ],
+        "vcs_paramclassrepository": [
+            "vcs_paramclassrepository",
+            "hEeZs",
+            "module",
+            1
+        ],
+        "lvc_apb_if": [
+            "lvc_apb_if",
+            "jJgFi",
+            "module",
+            12
+        ],
+        "rkv_DW_apb_i2c_bcm06_0000": [
+            "rkv_DW_apb_i2c_bcm06_0000",
+            "FsMwy",
+            "module",
+            25
+        ],
+        "_vcs_DPI_package": [
+            "_vcs_DPI_package",
+            "uM9F1",
+            "module",
+            8
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module",
+            2
+        ],
+        "rkv_i2c_pkg": [
+            "rkv_i2c_pkg",
+            "rj73V",
+            "module",
+            6
+        ],
+        "uvm_pkg": [
+            "uvm_pkg",
+            "zr7M1",
+            "module",
+            3
+        ],
+        "lvc_i2c_pkg": [
+            "lvc_i2c_pkg",
+            "rPVTq",
+            "module",
+            5
+        ],
+        "lvc_i2c_if": [
+            "lvc_i2c_if",
+            "eurhR",
+            "module",
+            13
+        ],
+        "rkv_DW_apb_i2c_bcm57_0000": [
+            "rkv_DW_apb_i2c_bcm57_0000",
+            "zZijZ",
+            "module",
+            26
+        ],
+        "rkv_i2c_tb": [
+            "rkv_i2c_tb",
+            "yVKj5",
+            "module",
+            7
+        ],
+        "_vcs_unit__3820934895": [
+            "_vcs_unit__3820934895",
+            "b4gw6",
+            "module",
+            10
+        ],
+        "rkv_DW_apb_i2c_slvfsm": [
+            "rkv_DW_apb_i2c_slvfsm",
+            "AMY4T",
+            "module",
+            20
+        ],
+        "_vcs_msglog": [
+            "_vcs_msglog",
+            "zQBzV",
+            "module",
+            9
+        ],
+        "uvm_custom_install_recording": [
+            "uvm_custom_install_recording",
+            "nhiwz",
+            "module",
+            11
+        ],
+        "rkv_DW_apb_i2c_rx_shift": [
+            "rkv_DW_apb_i2c_rx_shift",
+            "pnLe3",
+            "module",
+            19
+        ],
+        "rkv_DW_apb_i2c": [
+            "rkv_DW_apb_i2c",
+            "r7c62",
+            "module",
+            15
+        ],
+        "rkv_i2c_if": [
+            "rkv_i2c_if",
+            "VKSNc",
+            "module",
+            14
+        ],
+        "rkv_DW_apb_i2c_sync": [
+            "rkv_DW_apb_i2c_sync",
+            "DmUFD",
+            "module",
+            17
+        ],
+        "rkv_DW_apb_i2c_intctl": [
+            "rkv_DW_apb_i2c_intctl",
+            "B4ENd",
+            "module",
+            18
+        ],
+        "rkv_DW_apb_i2c_mstfsm": [
+            "rkv_DW_apb_i2c_mstfsm",
+            "G34z1",
+            "module",
+            21
+        ],
+        "rkv_DW_apb_i2c_clk_gen": [
+            "rkv_DW_apb_i2c_clk_gen",
+            "TISKB",
+            "module",
+            22
+        ],
+        "rkv_DW_apb_i2c_regfile": [
+            "rkv_DW_apb_i2c_regfile",
+            "DIV9m",
+            "module",
+            23
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module",
+            28
+        ],
+        "rkv_DW_apb_i2c_bcm57_0000_0000": [
+            "rkv_DW_apb_i2c_bcm57_0000_0000",
+            "FwKTy",
+            "module",
+            27
+        ],
+        "rkv_DW_apb_i2c_fifo": [
+            "rkv_DW_apb_i2c_fifo",
+            "MTd7J",
+            "module",
+            24
+        ]
+    },
+    "perf": [
+        {
+            "sub": [
+                {
+                    "sub": [],
+                    "stat": [
+                        "doParsingAndDesignResolution",
+                        "entry",
+                        0.032895088195800781,
+                        0.053239000000000002,
+                        0.0051190000000000003,
+                        261352,
+                        261464,
+                        0.0,
+                        0.0,
+                        1681123102.1344781,
+                        265751205467111
+                    ]
+                },
+                {
+                    "sub": [],
+                    "stat": [
+                        "doParsingAndDesignResolution",
+                        "exit",
+                        0.9165189266204834,
+                        0.92966800000000005,
+                        0.012152,
+                        340320,
+                        340320,
+                        0.0,
+                        0.0,
+                        1681123103.0181019,
+                        265753241380349
+                    ]
+                },
+                {
+                    "sub": [
+                        {
+                            "sub": [],
+                            "stat": [
+                                "doUptoVir2VcsNoSepCleanup",
+                                "entry",
+                                1.741689920425415,
+                                1.7528459999999999,
+                                0.014126,
+                                348040,
+                                348044,
+                                0.0,
+                                0.0,
+                                1681123103.8432729,
+                                265755142631902
+                            ]
+                        },
+                        {
+                            "sub": [],
+                            "stat": [
+                                "doUptoVir2VcsNoSepCleanup",
+                                "exit",
+                                4.3051319122314453,
+                                4.1958190000000002,
+                                0.027108,
+                                415104,
+                                415116,
+                                0.0,
+                                0.0022829999999999999,
+                                1681123106.4067149,
+                                265761048792946
+                            ]
+                        },
+                        {
+                            "sub": [],
+                            "stat": [
+                                "doRadify_vir2vcsAll",
+                                "entry",
+                                4.3052248954772949,
+                                4.1959140000000001,
+                                0.027109000000000001,
+                                415104,
+                                415116,
+                                0.0,
+                                0.0022829999999999999,
+                                1681123106.4068079,
+                                265761048934991
+                            ]
+                        },
+                        {
+                            "sub": [],
+                            "stat": [
+                                "doRadify_vir2vcsAll",
+                                "exit",
+                                4.5273139476776123,
+                                4.4180019999999995,
+                                0.027109000000000001,
+                                447872,
+                                447872,
+                                0.0,
+                                0.0022829999999999999,
+                                1681123106.628897,
+                                265761560719164
+                            ]
+                        }
+                    ],
+                    "stat": [
+                        "doPostDesignResolutionToVir2Vcs",
+                        "entry",
+                        0.96935510635375977,
+                        0.98250400000000004,
+                        0.012152,
+                        343480,
+                        343972,
+                        0.0,
+                        0.0,
+                        1681123103.0709381,
+                        265753363118888
+                    ]
+                },
+                {
+                    "sub": [],
+                    "stat": [
+                        "doPostDesignResolutionToVir2Vcs",
+                        "exit",
+                        4.527379035949707,
+                        4.4180679999999999,
+                        0.027109000000000001,
+                        447872,
+                        447872,
+                        0.0,
+                        0.0022829999999999999,
+                        1681123106.628962,
+                        265761560767124
+                    ]
+                },
+                {
+                    "sub": [
+                        {
+                            "sub": [],
+                            "stat": [
+                                "DoPass2",
+                                "entry",
+                                4.5730299949645996,
+                                4.4394919999999995,
+                                0.028104000000000001,
+                                447872,
+                                447884,
+                                0.014088,
+                                0.012147,
+                                1681123106.674613,
+                                265761666002437
+                            ]
+                        },
+                        {
+                            "sub": [],
+                            "stat": [
+                                "DoPass2",
+                                "exit",
+                                9.6263659000396729,
+                                9.4800550000000001,
+                                0.040238999999999997,
+                                467444,
+                                467472,
+                                0.014088,
+                                0.012147,
+                                1681123111.7279489,
+                                265773308893719
+                            ]
+                        }
+                    ],
+                    "stat": [
+                        "doGAToPass2",
+                        "entry",
+                        4.5273959636688232,
+                        4.4180849999999996,
+                        0.027109000000000001,
+                        447872,
+                        447872,
+                        0.0,
+                        0.0022829999999999999,
+                        1681123106.628979,
+                        265761560803515
+                    ]
+                },
+                {
+                    "sub": [],
+                    "stat": [
+                        "doGAToPass2",
+                        "exit",
+                        9.6673851013183594,
+                        9.487724,
+                        0.043249000000000003,
+                        467444,
+                        467472,
+                        0.038608999999999997,
+                        0.018270000000000002,
+                        1681123111.7689681,
+                        265773403411801
+                    ]
+                }
+            ],
+            "stat": [
+                "main",
+                "entry",
+                0.031722068786621094,
+                0.052079,
+                0.0051050000000000002,
+                259224,
+                259224,
+                0.0,
+                0.0,
+                1681123102.1333051,
+                265751202828886
+            ]
+        },
+        {
+            "sub": [],
+            "stat": [
+                "main",
+                "exit",
+                9.6691238880157471,
+                9.4894630000000006,
+                0.043249000000000003,
+                467436,
+                467472,
+                0.038608999999999997,
+                0.018270000000000002,
+                1681123111.7707069,
+                265773407403120
+            ]
+        }
+    ],
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "vcs_paramclassrepository",
+        "vcs_paramclassrepository",
+        "std",
+        "std",
+        "uvm_pkg",
+        "uvm_pkg",
+        "lvc_apb_pkg",
+        "lvc_apb_pkg",
+        "lvc_i2c_pkg",
+        "lvc_i2c_pkg",
+        "rkv_i2c_pkg",
+        "rkv_i2c_pkg",
+        "rkv_i2c_tb",
+        "rkv_i2c_tb",
+        "_vcs_DPI_package",
+        "_vcs_DPI_package",
+        "_vcs_msglog",
+        "_vcs_msglog",
+        "_vcs_unit__3820934895",
+        "_vcs_unit__3820934895",
+        "uvm_custom_install_recording",
+        "uvm_custom_install_recording",
+        "lvc_apb_if",
+        "lvc_apb_if",
+        "lvc_i2c_if",
+        "lvc_i2c_if",
+        "rkv_i2c_if",
+        "rkv_i2c_if",
+        "rkv_DW_apb_i2c",
+        "rkv_DW_apb_i2c",
+        "rkv_DW_apb_i2c_toggle",
+        "rkv_DW_apb_i2c_toggle",
+        "rkv_DW_apb_i2c_sync",
+        "rkv_DW_apb_i2c_sync",
+        "rkv_DW_apb_i2c_intctl",
+        "rkv_DW_apb_i2c_intctl",
+        "rkv_DW_apb_i2c_rx_shift",
+        "rkv_DW_apb_i2c_rx_shift",
+        "rkv_DW_apb_i2c_slvfsm",
+        "rkv_DW_apb_i2c_slvfsm",
+        "rkv_DW_apb_i2c_mstfsm",
+        "rkv_DW_apb_i2c_mstfsm",
+        "rkv_DW_apb_i2c_clk_gen",
+        "rkv_DW_apb_i2c_clk_gen",
+        "rkv_DW_apb_i2c_regfile",
+        "rkv_DW_apb_i2c_regfile",
+        "rkv_DW_apb_i2c_fifo",
+        "rkv_DW_apb_i2c_fifo",
+        "rkv_DW_apb_i2c_bcm06_0000",
+        "rkv_DW_apb_i2c_bcm06_0000",
+        "rkv_DW_apb_i2c_bcm57_0000",
+        "rkv_DW_apb_i2c_bcm57_0000",
+        "rkv_DW_apb_i2c_bcm57_0000_0000",
+        "rkv_DW_apb_i2c_bcm57_0000_0000"
+    ],
+    "PrevCompiledModules": {},
+    "CompileStrategy": "fullobj",
+    "incremental": "on",
+    "cpu_cycles_pass2_start": 265761666016866,
+    "CurCompileUdps": {},
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 548524,
+        "text": 0,
+        "archive": "archive.0/_82405_archive_1.a"
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "CompileProcesses": [
+        "cgproc.82405.json"
+    ],
+    "CompileStatus": "Successful"
+}

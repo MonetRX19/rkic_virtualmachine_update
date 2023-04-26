@@ -1,0 +1,17 @@
+rc file Version 1.0
+
+[Design]
+COMPILE_PATH=/home/verifier/project/i2c/rkv_v2pro_i2c-RKV_I2C_TB_00/rkv_i2c_tb/sim
+SystemC=FALSE
+UUM=TRUE
+KDB=FALSE
+USE_NOVAS_HOME=FALSE
+COSIM=FALSE
+SYNOPSYS_SIM_SETUP=/home/verifier/project/i2c/rkv_v2pro_i2c-RKV_I2C_TB_00/rkv_i2c_tb/sim/synopsys_sim.setup 
+TOP=rkv_i2c_tb uvm_custom_install_recording 
+OPTION=-ssz -ssz -ssv -ssy 
+ELAB_OPTION=-ssz -ssz -ssv -ssy 
+
+[Value]
+WREALX=ffff534e50535f58
+WREALZ=ffff534e50535f5a

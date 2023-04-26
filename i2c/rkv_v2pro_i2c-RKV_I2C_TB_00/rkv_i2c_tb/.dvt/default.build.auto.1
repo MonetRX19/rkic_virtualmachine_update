@@ -1,0 +1,42 @@
+################################################################################
+#                    DO NOT MANUALLY EDIT THIS FILE!                           #
+################################################################################
+# This file contains the automatically generated build configuration (2023/04/10 16:52:57)
+# requested at line 3 in /home/verifier/project/i2c/rkv_v2pro_i2c-RKV_I2C_TB_00/rkv_i2c_tb/.dvt/default.build
+
+
+################ Verilog Auto-config Directives ################
++dvt_init
+
+
+-uvm
+
++incdir+agents/lvc_apb3
++incdir+agents/lvc_i2c
++incdir+reg
++incdir+cfg
++incdir+cov
++incdir+env
++incdir+seq_lib/elem_seqs
++incdir+seq_lib
++incdir+tests
+
+
+### AUTOCONFIG WARNING: Missing macro definitions
+# The following macros are used but not defined:
+# +define+SVT_I2C_MAX_NUM_SLAVES
+# +define+SVT_I2C_MAX_NUM_MASTERS
+# +define+LVC_I2C_CCI
+# +define+SVT_TRANSACTION_BASE_TYPE
+
+# Available `ifdef / `ifndef controls:
+# +define+SVT_COSIM
+
+agents/lvc_i2c/lvc_i2c_if.sv
+tb/rkv_i2c_if.sv
+agents/lvc_apb3/lvc_apb_pkg.sv
+agents/lvc_apb3/lvc_apb_tb.sv
+env/rkv_i2c_pkg.sv
+seq_lib/elem_seqs/rkv_i2c_base_sequence.sv
+agents/lvc_i2c/lvc_i2c_pkg.sv
+tb/rkv_i2c_tb.sv

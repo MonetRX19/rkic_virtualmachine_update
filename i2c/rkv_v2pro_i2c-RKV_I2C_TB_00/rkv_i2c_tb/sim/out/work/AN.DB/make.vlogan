@@ -1,0 +1,187 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -l out/log/comp_.log +incdir+../../rkv_dw_apb_i2c/src +incdir+../agents/lvc_apb3 +incdir+../agents/lvc_i2c +incdir+../cfg +incdir+../cov +incdir+../reg +incdir+../env +incdir+../seq_lib +incdir+../seq_lib/elem_seqs +incdir+../tests -full64 -sverilog -ntb_opts uvm-1.2 +incdir+/opt/synopsys/vcs/vcs-mx/O-2018.09-SP2/etc/uvm/vcs/wrap +incdir+/opt/synopsys/vcs/vcs-mx/O-2018.09-SP2/etc/uvm-1.2 -timescale=1ps/1ps -sverilog +define+UVM_DIRECTC_OPTS -full64
+
+all :		_VCSgd_R4kEp_1.db \
+	_VCSgd_vfWKk_1.db \
+	_VCSgd_4RiO4d_1.db \
+	_VCSgd_95AOP_1.db \
+	_VCSgd_X8elXc_1.db \
+	_VCSgd_fjCmFd_1.db \
+	_VCSgd_xyBr7c_1.db \
+	_VCSgd_hDsZhd_1.db \
+	_VCSgd_IAaufb_1.db \
+	_VCSgd_bE2ihb_1.db \
+	_VCSgd_ZjhH4_1.db \
+	_VCSgd_19inp_1.db \
+	_VCSgd_7eaHK_1.db \
+	_VCSgd_ZVUWMd_1.db \
+	_VCSgd_JOtUfe_1.db \
+	_VCSgd_ZJLe4c_1.db \
+	_VCSgd_Mdg2Rc_1.db \
+	_VCSgd_afkpZc_1.db \
+	_VCSgd_Kpj9ce_1.db \
+	_VCSgd_XJsPqe_1.db \
+	_VCSgd_YgL9Oe_1.db \
+	_VCSgd_1sA1Cb_1.db \
+	_VCSgd_k3gi0_1.db \
+	_VCSgd_eizyDe_1.db \
+	_VCSgd_sGU9Fe_1.db \
+	_VCSgd_jX9D5c_1.db \
+	_VCSgd_PVU60_1.db \
+	_VCSgd_qBtT2b_1.db \
+	_VCSgd_33mV9b_1.db \
+	_VCSgd_rLcmb_1.db \
+	_VCSgd_54Ojde_1.db \
+	_VCSgd_qOqJPd_1.db \
+	_VCSgd_zzbty_1.db \
+	_VCSgd_0n9Sne_1.db \
+	_VCSgd_IGJJBb_1.db \
+	_VCSgd_xZwqBb_1.db \
+
+
+
+_VCSgd_R4kEp_1.db :	/opt/synopsys/vcs/vcs-mx/O-2018.09-SP2/etc/uvm-1.2/uvm_pkg.sv 
+		${VLOGAN}  ${VLOGAN_OPT} /opt/synopsys/vcs/vcs-mx/O-2018.09-SP2/etc/uvm-1.2/uvm_pkg.sv
+
+
+_VCSgd_vfWKk_1.db :	../agents/lvc_apb3/lvc_apb_pkg.sv 
+		${VLOGAN}  ${VLOGAN_OPT} ../agents/lvc_apb3/lvc_apb_pkg.sv
+
+
+_VCSgd_4RiO4d_1.db :	../agents/lvc_i2c/lvc_i2c_pkg.sv 
+		${VLOGAN}  ${VLOGAN_OPT} ../agents/lvc_i2c/lvc_i2c_pkg.sv
+
+
+_VCSgd_95AOP_1.db :	../env/rkv_i2c_pkg.sv 
+		${VLOGAN}  ${VLOGAN_OPT} ../env/rkv_i2c_pkg.sv
+
+
+_VCSgd_X8elXc_1.db :	/opt/synopsys/vcs/vcs-mx/O-2018.09-SP2/etc/uvm-1.2/vcs/msglog.svh 
+		${VLOGAN}  ${VLOGAN_OPT} /opt/synopsys/vcs/vcs-mx/O-2018.09-SP2/etc/uvm-1.2/vcs/msglog.svh
+
+
+_VCSgd_fjCmFd_1.db :	../tb/rkv_i2c_tb.sv 
+		${VLOGAN}  ${VLOGAN_OPT} ../tb/rkv_i2c_tb.sv
+
+
+_VCSgd_xyBr7c_1.db :	../tb/rkv_i2c_if.sv 
+		${VLOGAN}  ${VLOGAN_OPT} ../tb/rkv_i2c_if.sv
+
+
+_VCSgd_hDsZhd_1.db :	../agents/lvc_i2c/lvc_i2c_if.sv 
+		${VLOGAN}  ${VLOGAN_OPT} ../agents/lvc_i2c/lvc_i2c_if.sv
+
+
+_VCSgd_IAaufb_1.db :	../agents/lvc_apb3/lvc_apb_if.sv 
+		${VLOGAN}  ${VLOGAN_OPT} ../agents/lvc_apb3/lvc_apb_if.sv
+
+
+_VCSgd_bE2ihb_1.db :	/opt/synopsys/vcs/vcs-mx/O-2018.09-SP2/etc/uvm-1.2/vcs/uvm_custom_install_vcs_recorder.sv 
+		${VLOGAN}  ${VLOGAN_OPT} /opt/synopsys/vcs/vcs-mx/O-2018.09-SP2/etc/uvm-1.2/vcs/uvm_custom_install_vcs_recorder.sv
+
+
+_VCSgd_ZjhH4_1.db :	/opt/synopsys/vcs/vcs-mx/O-2018.09-SP2/etc/uvm-1.2/verdi/uvm_custom_install_verdi_recorder.sv 
+		${VLOGAN}  ${VLOGAN_OPT} /opt/synopsys/vcs/vcs-mx/O-2018.09-SP2/etc/uvm-1.2/verdi/uvm_custom_install_verdi_recorder.sv
+
+
+_VCSgd_19inp_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_bcm57.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_bcm57.v
+
+
+_VCSgd_7eaHK_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_bcm21.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_bcm21.v
+
+
+_VCSgd_ZVUWMd_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_bcm41.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_bcm41.v
+
+
+_VCSgd_JOtUfe_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_bcm47.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_bcm47.v
+
+
+_VCSgd_ZJLe4c_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_bcm06.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_bcm06.v
+
+
+_VCSgd_Mdg2Rc_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_bcm05.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_bcm05.v
+
+
+_VCSgd_afkpZc_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_bcm07.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_bcm07.v
+
+
+_VCSgd_Kpj9ce_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_regs.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_regs.v
+
+
+_VCSgd_XJsPqe_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_tog.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_tog.v
+
+
+_VCSgd_YgL9Oe_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_bcm99.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_bcm99.v
+
+
+_VCSgd_1sA1Cb_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_biu.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_biu.v
+
+
+_VCSgd_k3gi0_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_regfile.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_regfile.v
+
+
+_VCSgd_eizyDe_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_fifo.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_fifo.v
+
+
+_VCSgd_sGU9Fe_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_async_fifo.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_async_fifo.v
+
+
+_VCSgd_jX9D5c_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_intctl.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_intctl.v
+
+
+_VCSgd_PVU60_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_rx_filter.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_rx_filter.v
+
+
+_VCSgd_qBtT2b_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_clk_gen.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_clk_gen.v
+
+
+_VCSgd_33mV9b_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_mstfsm.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_mstfsm.v
+
+
+_VCSgd_rLcmb_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_sync.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_sync.v
+
+
+_VCSgd_54Ojde_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_slvfsm.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_slvfsm.v
+
+
+_VCSgd_qOqJPd_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_tx_shift.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_tx_shift.v
+
+
+_VCSgd_zzbty_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_rx_shift.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_rx_shift.v
+
+
+_VCSgd_0n9Sne_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_toggle.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_toggle.v
+
+
+_VCSgd_IGJJBb_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_dma.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c_dma.v
+
+
+_VCSgd_xZwqBb_1.db :	../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../../rkv_dw_apb_i2c/src/rkv_DW_apb_i2c.v
+
+
